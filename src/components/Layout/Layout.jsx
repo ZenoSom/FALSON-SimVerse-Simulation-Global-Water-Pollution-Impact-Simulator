@@ -3,7 +3,7 @@ import './Layout.css';
 import { useSimulation } from '../../context/SimulationContext';
 
 const Layout = ({ leftPanel, rightPanel, mainContent, footer }) => {
-    const { params, wpi, localData, qualityStatus, sewageTreatment, industryType, plotsData, mitigationPlan } = useSimulation();
+    const { params, wpi, localData, qualityStatus, sewageTreatment, industryType, plotsData, mitigationPlan, selectedLocation } = useSimulation();
 
     const handlePrint = async () => {
         const printRoot = document.getElementById('print-root');
@@ -165,6 +165,7 @@ const Layout = ({ leftPanel, rightPanel, mainContent, footer }) => {
                                 <tr style="border-bottom: 1px solid #ddd;"><td style="padding: 8px; font-weight: bold; width: 40%;">Project Name</td><td style="padding: 8px;">FALCONS – SimVerse Simulation</td></tr>
                                 <tr style="border-bottom: 1px solid #ddd;"><td style="padding: 8px; font-weight: bold;">Simulation Title</td><td style="padding: 8px;">Global Water Pollution Impact Simulator</td></tr>
                                 <tr style="border-bottom: 1px solid #ddd;"><td style="padding: 8px; font-weight: bold;">Selected Place</td><td style="padding: 8px;">${localData?.classification || "N/A"}</td></tr>
+                                <tr style="border-bottom: 1px solid #ddd;"><td style="padding: 8px; font-weight: bold;">Coordinates</td><td style="padding: 8px;">Lat: ${selectedLocation?.lat.toFixed(4)}, Lon: ${selectedLocation?.lon.toFixed(4)}</td></tr>
                                 <tr style="border-bottom: 1px solid #ddd;"><td style="padding: 8px; font-weight: bold;">Area Type</td><td style="padding: 8px;">${localData?.biome || "N/A"}</td></tr>
                                 <tr style="border-bottom: 1px solid #ddd;"><td style="padding: 8px; font-weight: bold;">Population</td><td style="padding: 8px;">${localData?.population?.toLocaleString() || 0}</td></tr>
                                 <tr style="border-bottom: 1px solid #ddd;"><td style="padding: 8px; font-weight: bold;">Population Density</td><td style="padding: 8px;">${(localData?.population / 314).toFixed(1)} /km²</td></tr>
