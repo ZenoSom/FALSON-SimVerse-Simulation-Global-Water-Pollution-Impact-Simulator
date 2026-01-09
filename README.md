@@ -70,6 +70,6 @@ SimVerse is an interactive **3D Digital Twin** application designed to visualize
 ## 👨‍💻 Developed By
 
 **Team FALCONS**
-*   **Shubham Sharma** (marksrv047@gmail.com)
 *   **Somnath Singh** (singhsomnath2006@gmail.com)
-*   *Applied AI and Data Science | IIT Jodhpur*
+*   **Shubham Sharma** (marksrv047@gmail.com)
+*   * AI and Data Science | IIT Jodhpur*
