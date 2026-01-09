@@ -30,7 +30,11 @@ const SliderControl = ({ label, value, onChange, min = 0, max = 1, step = 0.01, 
     </div>
 );
 
-const ControlPanel = () => {
+import FeatureGuide from '../UI/FeatureGuide';
+
+const ControlPanel = ({ isOpen, togglePanel }) => {
+    const [isGuideOpen, setIsGuideOpen] = useState(false);
+
     const {
         params, updateParam, selectedLocation, localData, wpi, qualityStatus,
         regionType, setRegionType, // Not used heavily but kept for compatibility
@@ -191,6 +195,32 @@ const ControlPanel = () => {
                     )}
                 </div>
             )}
+            {/* Feature Guide Trigger - Fixed in bottom left */}
+            <button
+                onClick={() => setIsGuideOpen(true)}
+                style={{
+                    position: 'absolute',
+                    bottom: '20px',
+                    left: '20px',
+                    background: 'var(--accent-primary)',
+                    color: 'white',
+                    border: 'none',
+                    borderRadius: '50px',
+                    padding: '8px 16px',
+                    fontSize: '0.8rem',
+                    fontWeight: 'bold',
+                    cursor: 'pointer',
+                    boxShadow: '0 4px 6px rgba(0,0,0,0.3)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '6px',
+                    zIndex: 20
+                }}
+            >
+                <span>📘 How to Use</span>
+            </button>
+
+            <FeatureGuide isOpen={isGuideOpen} onClose={() => setIsGuideOpen(false)} />
         </div>
     );
 };
