@@ -26,6 +26,9 @@ const TeamFooter = () => {
             <div style={{ opacity: 0.6, fontSize: '0.75rem', marginTop: '2px' }}>
                 Applied AI and Data Science | IIT Jodhpur
             </div>
+            <div style={{ opacity: 0.4, fontSize: '0.7rem', marginTop: '4px' }}>
+                &copy; {new Date().getFullYear()} Team FALCONS. All Rights Reserved.
+            </div>
         </div>
     );
 };
