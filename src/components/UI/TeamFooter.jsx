@@ -10,7 +10,18 @@ const TeamFooter = () => {
                 <span style={{ fontWeight: 600 }}>Developed By:</span>
                 <span style={{ margin: '0 8px' }}>Shubham Sharma (marksrv047@gmail.com)</span>
                 <span style={{ margin: '0 8px' }}>|</span>
-                <span style={{ margin: '0 8px' }}>Somnath Singh (singhsomnath2006@gmail.com)</span>
+                <span style={{ margin: '0 8px' }}>
+                    Somnath Singh (singhsomnath2006@gmail.com)
+                    <a
+                        href="https://zenofolio.vercel.app"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="Visit Portfolio"
+                        style={{ marginLeft: '4px', textDecoration: 'none', color: 'var(--accent-secondary)', fontSize: '0.9em', verticalAlign: 'middle' }}
+                    >
+                        ↗
+                    </a>
+                </span>
             </div>
             <div style={{ opacity: 0.6, fontSize: '0.75rem', marginTop: '2px' }}>
                 Applied AI and Data Science | IIT Jodhpur
