@@ -43,7 +43,10 @@ const ControlPanel = () => {
     return (
         <div style={{ height: '100%' }}>
             <h2 style={{ fontSize: '1.2rem', marginBottom: '1rem', borderBottom: '1px solid var(--glass-border)', paddingBottom: '0.5rem', color: 'var(--accent-primary)' }}>
-                FALSON – SimVerse
+                <div>FALCONS – SimVerse</div>
+                <div style={{ fontSize: '0.75rem', color: '#94a3b8', fontWeight: 'normal', marginTop: '4px', letterSpacing: '0.5px' }}>
+                    Global Water Pollution Impact Simulator
+                </div>
             </h2>
 
             {/* Location Status */}

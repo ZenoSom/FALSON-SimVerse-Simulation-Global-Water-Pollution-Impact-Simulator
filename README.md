@@ -1,4 +1,4 @@
-# 🌊 FALSON – SimVerse Simulation
+# 🌊 FALCONS – SimVerse Simulation
 
 **Global Water Pollution Impact Simulator**
 
@@ -69,7 +69,7 @@ SimVerse is an interactive **3D Digital Twin** application designed to visualize
 
 ## 👨‍💻 Developed By
 
-**Team FALSON**
+**Team FALCONS**
 *   **Shubham Sharma** (marksrv047@gmail.com)
 *   **Somnath Singh** (singhsomnath2006@gmail.com)
 *   *Applied AI and Data Science | IIT Jodhpur*

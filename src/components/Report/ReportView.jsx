@@ -70,7 +70,7 @@ const ReportView = ({ wpi, qualityStatus, localData, plots, mapImageInfo, params
             {/* HEADER */}
             <div style={{ borderBottom: '2px solid #000', paddingBottom: '10px', marginBottom: '20px', display: 'flex', justifyContent: 'space-between' }}>
                 <div>
-                    <h1 style={{ margin: 0, fontSize: '24px' }}>FALSON – SimVerse Simulation</h1>
+                    <h1 style={{ margin: 0, fontSize: '24px' }}>FALCONS – SimVerse Simulation</h1>
                     <p style={{ margin: 0, fontSize: '14px', color: '#666' }}>Global Water Pollution Impact Simulator</p>
                 </div>
                 <div style={{ textAlign: 'right', fontSize: '12px', color: '#666' }}>

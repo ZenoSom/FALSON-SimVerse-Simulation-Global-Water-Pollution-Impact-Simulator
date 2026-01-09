@@ -106,7 +106,7 @@ const Layout = ({ leftPanel, rightPanel, mainContent, footer }) => {
                     <!-- HEADER -->
                     <div style="border-bottom: 3px solid #000; padding-bottom: 20px; margin-bottom: 30px; display: flex; justify-content: space-between; align-items: end;">
                         <div>
-                            <h1 style="margin: 0; font-size: 32px; color: #111;">FALSON – SimVerse Simulation</h1>
+                            <h1 style="margin: 0; font-size: 32px; color: #111;">FALCONS – SimVerse Simulation</h1>
                             <p style="margin: 5px 0 0; font-size: 16px; color: #666;">Global Water Pollution Impact Simulator</p>
                         </div>
                         <div style="text-align: right; color: #555; font-size: 14px;">
@@ -162,7 +162,7 @@ const Layout = ({ leftPanel, rightPanel, mainContent, footer }) => {
                         <h3 style="background: #333; color: white; padding: 10px; margin: 0;">📊 PROJECT & ANALYSIS SUMMARY</h3>
                         <table style="width: 100%; border-collapse: collapse; border: 1px solid #333; font-size: 14px;">
                             <tbody>
-                                <tr style="border-bottom: 1px solid #ddd;"><td style="padding: 8px; font-weight: bold; width: 40%;">Project Name</td><td style="padding: 8px;">FALSON – SimVerse Simulation</td></tr>
+                                <tr style="border-bottom: 1px solid #ddd;"><td style="padding: 8px; font-weight: bold; width: 40%;">Project Name</td><td style="padding: 8px;">FALCONS – SimVerse Simulation</td></tr>
                                 <tr style="border-bottom: 1px solid #ddd;"><td style="padding: 8px; font-weight: bold;">Simulation Title</td><td style="padding: 8px;">Global Water Pollution Impact Simulator</td></tr>
                                 <tr style="border-bottom: 1px solid #ddd;"><td style="padding: 8px; font-weight: bold;">Selected Place</td><td style="padding: 8px;">${localData?.classification || "N/A"}</td></tr>
                                 <tr style="border-bottom: 1px solid #ddd;"><td style="padding: 8px; font-weight: bold;">Area Type</td><td style="padding: 8px;">${localData?.biome || "N/A"}</td></tr>
