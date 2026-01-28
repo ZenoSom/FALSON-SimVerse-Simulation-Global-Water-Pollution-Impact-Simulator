@@ -4,6 +4,12 @@
 
 SimVerse is an interactive **3D Digital Twin** application designed to visualize and analyze the impact of human activity on global water resources. It combines geospatial data, algorithmic modeling, and AI-driven insights to help users understand water pollution dynamics.
 
+## 🎥 Tutorial – How to Use SimVerse
+📺 **Watch the complete walkthrough & demo here:**  
+👉 https://youtu.be/r7_DBtVKmH4?si=uVOl6zkuE1IxJ0xj  
+
+> This video explains navigation, simulation controls, Water Pollution Index (WPI), AI mitigation insights, and report generation.
+
 ## 🚀 Key Features
 
 ### 🌍 Interactive 3D Globe
